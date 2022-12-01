@@ -1,5 +1,10 @@
 # Helm Charts Registry
 
+An example of adding an external dependency:
+```
+just REPO_NAME=prometheus-community REPO_URL=https://prometheus-community.github.io/helm-charts CHART_NAME=alertmanager CHART_VERSION=0.22.0 fetch
+```
+
 An example of using charts from another repository:
 ```yaml
 apiVersion: skaffold/v2beta29
