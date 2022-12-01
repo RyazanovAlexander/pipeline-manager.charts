@@ -10,6 +10,8 @@ just \
   fetch
 ```
 
+After that, you should push the changes to the `master` branch. A pipeline will automatically start that will update `GitHub Pages`. The new chart will be available in about 2 minutes.
+
 An example of using charts from another repository:
 ```yaml
 apiVersion: skaffold/v2beta29
